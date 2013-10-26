@@ -1,0 +1,25 @@
+{
+    "name": "cleentfaar/select2-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony CleentfaarThreeJsBundle",
+    "keywords": ["symfony2", "jquery", "select2"],
+    "homepage": "https://github.com/cleentfaar/CleentfaarSelect2Bundle",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Cas Leentfaar",
+            "email": "leentfaar87@gmail.com",
+            "homepage": "http://github.com/cleentfaar"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "2.3.*",
+        "cleentfaar/jquery-bundle": ">=1.7"
+    },
+    "autoload": {
+        "psr-0": { "Cleentfaar\\Bundle\\Select2Bundle": "" }
+    },
+    "target-dir": "Cleentfaar/Bundle/Select2Bundle"
+}
